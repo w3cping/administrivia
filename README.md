@@ -6,7 +6,11 @@ This repository tracks PING's meta-work.
 
 # PING Process
 
-PING's goal is to ensure that the specifications recommended by the W3C respect the privacy of people who use the web platform, and ensure that the web platform is an environment which allows people to browse the web privately. PING achieves this by engaging in _horizontal review_: members of PING review specifications and provide recommendations to the authors about how to ensure that their specifications support a web platform which respects privacy.
+PING's goal is to ensure that the specifications recommended by the W3C respect the privacy of people who use the web platform, and ensure that the web platform is an environment which allows people to browse the web privately.
+
+PING's core administrative mechanism for achieving this is _horizontal review_: members of PING review specifications and provide recommendations to the authors about how to ensure that their specifications support a web platform which respects privacy. This formal review process is the most visible part of a larger iceberg of activities aimed at helping specification authors write with privacy in mind. The best place to make privacy-related improvements to specifications is substantially in advance of horizontal review points. PING welcomes conversations with authors at all phases of specification development. Ideally, PING would be thoroughly familiar with specifications, their potential privacy impacts, and the measures takes to mitigate those impacts well before the time horizontal review points are reached, and those privacy reviews would consist mostly of codifying & recording conversations which have already happened, rather than pointing new things out to authors.
+
+PING's work extends substantially beyond the specific task of ensuring that a high privacy standard is upheld in those specifications which become recommendations. We also work with other privacy focused groups and researchers to gain better understanding of privacy risks and solutions for the web, ensure W3C processes protect privacy as a first-class feature of the Web. The remainder of this document focuses exclusively on the procedure of privacy reviews.
 
 ## Privacy Review
 
