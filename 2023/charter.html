@@ -80,7 +80,7 @@
         Working Group</a> is to
       improve privacy on the Web both by advising groups developing standards on
       how to avoid and mitigate privacy issues with Web technologies
-      <em>and</em> by standardizing mechanisms that improve user privacy on the Web. .
+      <em>and</em> by standardizing mechanisms that improve user privacy on the Web.
     </p>
 
     <div class="noprint">
@@ -225,20 +225,51 @@
             <p>This specification defines a signal, transmitted over HTTP and through the DOM, that conveys a person's request to websites and services to not sell or share their personal information with third parties. This standard is intended to work with existing and upcoming legal frameworks that render such requests enforceable.</p>
 
             <p class="draft-status"><b>Draft state:</b> <a
-                  href="#">Adopted from Privacy CG</a></p>
+                  href="#">Adopted from Privacy CG</a> (anticipated)</p>
             <p class="milestone"><b>Expected completion:</b>
               <i class="todo">[Q1–4 yyyy]</i></p>
           </dd>
+          </dl>
+
+          <p>
+            The Working Group may choose to develop the following normative specifications:
+          </p>
+          <dl>
           <dt id="btm" class="spec">
-            <a href="https://github.com/privacycg/nav-tracking-mitigations/blob/main/bounce-tracking-explainer.md">Bounce Tracking Mitigation</a> (to be confirmed)</dt>
+            <a href="https://github.com/privacycg/nav-tracking-mitigations/blob/main/bounce-tracking-explainer.md">Bounce Tracking Mitigation</a></dt>
           <dd>
             <p>
-               @@mitigating the privacy impact of bounce trackers.@@
+              Browsers are working to prevent cross-site tracking, which threatens user privacy. Navigational tracking, including bounce tracking, correlates user identities across sites during navigations between sites. This specification defines mechanisms to mitigate the privacy impact of bounce trackers.
+            </p>
+          </dd>
+          <dt>
+            Privacy Attestations, Labels and Declarations
+          </dt>
+          <dd>
+            <p>
+              Labels, declarations and attestations about privacy-relevant practices have been proposed as transparency and accountability mechanisms that could improve user privacy by enabling more informed or automated decisions about information requests and by creating legally enforceable commitments for privacy protections.
             </p>
           </dd>
         </dl>
 
 
+      </section>
+      <section id="horizontal-review">
+        <h3>
+          Horizontal Review
+        </h3>
+
+        <p>
+          The Working Group will regularly produce privacy reviews as part of <a href="https://www.w3.org/Guide/documentreview/#how_to_get_horizontal_review">horizontal review</a>, of proposals and specifications under development by other Working Groups and Community Groups, and of charters for other W3C groups.
+        </p>
+
+        <p>
+          The Working Group will maintain documentation on its general practices for conducting privacy reviews, including: <a href="https://github.com/w3c/ping/blob/main/howto-conduct-a-privacy-review.md">How to Conduct a Privacy Review</a>.
+        </p>
+
+        <p>
+          The Working Group may decide to publish additional guidance as needed to facilitate privacy-protective design across Web standards.
+        </p>
       </section>
 
       <section id="ig-other-deliverables">
@@ -251,7 +282,7 @@
         </p>
         <p>
           The Working Group will contribute to privacy-focused documents maintained by
-          the <a href="https://www.w3.org/2001/tag/"><abbr title="W3C Techincal Architecture Group"></abbr>W3C TAG</a>:
+          the <a href="https://www.w3.org/2001/tag/"><abbr title="W3C Technical Architecture Group"></abbr>W3C TAG</a>:
         </p>
         <ul>
           <li><a href="https://www.w3.org/TR/security-privacy-questionnaire/">Self-Review Questionnaire: Security and Privacy</a></li>
@@ -320,11 +351,18 @@
         to the user or operator of that protocol 
         after threat mitigation has been deployed.</p>
 
-      <p><i class="todo">For specifications of technologies that directly impact user experience, such as content
-          technologies, as well as protocols and APIs which impact content: </i>
+      <p>
         Each specification should contain a section on accessibility that describes the benefits and impacts, including
         ways specification features can be used to address them, and
         recommendations for maximising accessibility in implementations.</p>
+      
+      <p>
+        Guidance documents and reviews should be useful to the Privacy Working Group and to other groups in identifying and addressing privacy in specifications. Generalized principles derived from reviews should be incorporated into the Privacy Principles, Questionnaire and other guidance documents. Guidance should be interpreted consistently. Reviewed specifications should show better support for user privacy on the Web.
+      </p>
+
+      <p>
+        In order to be most helpful and have the greatest success in encouraging privacy-supportive designs, privacy reviews should be conducted regularly and promptly.
+      </p>
 
       <!-- Design principles -->
       <p>This Working Group expects to follow the
@@ -396,6 +434,9 @@
         The group also welcomes non-Members to contribute technical submissions for consideration upon their agreement
         to the terms of the <a href="https://www.w3.org/Consortium/Patent-Policy/">W3C Patent Policy</a>.
       </p>
+      <p>
+        Individuals not employed by a W3C Member who wish to contribute to both privacy reviews and standardization of privacy mechanisms may join the group as Invited Experts; those individuals should contact the chairs and Team Contact. As the Working Group will conduct its work in public, Invited Experts will not by default be granted access to W3C Member-only content.
+      </p>
       <p>Participants in the group are required (by the <a
           href="https://www.w3.org/Consortium/Process/#ParticipationCriteria">W3C Process</a>) to follow the
         W3C <a href="https://www.w3.org/Consortium/cepc/">Code of Ethics and Professional Conduct</a>.</p>
@@ -421,16 +462,13 @@
         meetings) will be available from the <a href="">Privacy Working Group home page.</a>
       </p>
       <p>
-        Most Privacy Working Group teleconferences will focus on discussion of particular specifications, and will be
-        conducted on an as-needed basis.
+        Working Group teleconferences will focus on discussion of particular specifications or privacy review of specifications from other groups. Teleconferences will be conducted on an as-needed basis but typically with a frequency of every two weeks.
       </p>
       <p>
-        This group primarily conducts its technical work <i class="todo">pick one, or both, as appropriate:</i> on the
-        public mailing list <a id="public-name" href="mailto:public-privacy@w3.org">public-privacy@w3.org</a> (<a
-          href="https://lists.w3.org/Archives/Public/public-privacy/">archive</a>)
-        <i class="todo">or</i> on <a class="todo" id="public-github" href="[link to Github repo]">GitHub issues</a>.
-        The public is invited to review, discuss and contribute to this work.
+        This group primarily conducts its technical work on GitHub repositories, but will also use the public mailing list <a id="public-name" href="mailto:public-privacy@w3.org">public-privacy@w3.org</a> (<a
+        href="https://lists.w3.org/Archives/Public/public-privacy/">archive</a>) and archived asynchronous chat. The public is invited to review, discuss and contribute to this work.
       </p>
+
       <p>
         The group may use a Member-confidential mailing list for administrative purposes and, at the discretion of the
         Chairs and members of the group, for member-only discussions in special cases when a participant requests such a
